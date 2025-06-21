@@ -3,8 +3,8 @@ from flask_httpauth import HTTPBasicAuth
 auth = HTTPBasicAuth()
 
 users = {
-    "admin": "s3cur3p@ss",  # Cambia con le tue credenziali
-    "gatto": "mia0w!"
+    "admin": "admin",  # Cambia con le tue credenziali
+    "gatto": "miao"
 }
 
 @auth.verify_password
