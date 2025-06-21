@@ -5,7 +5,7 @@ import os
 import logging
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'supersecretkey'  # Cambia in produzione!
+app.config['SECRET_KEY'] = '29df2881a6ae9a8c24b945dbe1666faf'  # Cambia in produzione!
 
 # Configurazione telecamere
 CAMERAS = {
